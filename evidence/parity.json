@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 14,
+  "randomInputs": true,
+  "persistedSecrets": false,
+  "method": "Extracted original derivation functions from wallet source; transpiled in isolated VM and compared public addresses. Checked native transfer construction and default path.",
+  "publicReproduction": "npm test validates derivation against ed25519-hd-key; private wallet source is intentionally excluded."
+}

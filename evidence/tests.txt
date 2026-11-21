@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: BIP39/SLIP-0010 matches independent implementation for multiple indexes
+ok 1 - BIP39/SLIP-0010 matches independent implementation for multiple indexes
+  ---
+  duration_ms: 136.8333
+  type: 'test'
+  ...
+# Subtest: derivation rejects invalid mnemonic and account indexes
+ok 2 - derivation rejects invalid mnemonic and account indexes
+  ---
+  duration_ms: 0.7525
+  type: 'test'
+  ...
+# Subtest: public EVM recovery formula preserves bytes and normalization
+ok 3 - public EVM recovery formula preserves bytes and normalization
+  ---
+  duration_ms: 1.2763
+  type: 'test'
+  ...
+# Subtest: amount conversion is exact and rejects unsafe inputs
+ok 4 - amount conversion is exact and rejects unsafe inputs
+  ---
+  duration_ms: 0.3576
+  type: 'test'
+  ...
+# Subtest: balance query reads JSON-RPC value, including zero; errors never become zero
+ok 5 - balance query reads JSON-RPC value, including zero; errors never become zero
+  ---
+  duration_ms: 15.8722
+  type: 'test'
+  ...
+# Subtest: signed transfer decodes to System Program, correct sender, recipient and lamports
+ok 6 - signed transfer decodes to System Program, correct sender, recipient and lamports
+  ---
+  duration_ms: 23.9225
+  type: 'test'
+  ...
+# Subtest: wrong sender, self-send, non-devnet, unknown fees and insufficient funds never broadcast
+ok 7 - wrong sender, self-send, non-devnet, unknown fees and insufficient funds never broadcast
+  ---
+  duration_ms: 13.4173
+  type: 'test'
+  ...
+# Subtest: broadcast ambiguity never retries; confirmation timeout preserves signature
+ok 8 - broadcast ambiguity never retries; confirmation timeout preserves signature
+  ---
+  duration_ms: 21.108
+  type: 'test'
+  ...
+# Subtest: on-chain execution error is failed, never confirmed
+ok 9 - on-chain execution error is failed, never confirmed
+  ---
+  duration_ms: 10.5153
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 475.0006

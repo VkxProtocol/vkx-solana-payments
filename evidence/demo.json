@@ -1,0 +1,16 @@
+{
+  "mode": "offline-mocked-rpc",
+  "networkAccess": false,
+  "onChainTransaction": false,
+  "path": "m/44'/501'/0'/0'",
+  "sender": "37WbBqPiXhcsVdXnjuVyzTUVWpzew1M1ECsUSPwhysLG",
+  "recipient": "76mXSjb8zRpTiEn5SJcn4rJdzpy6DZ9ujhE4giQmUSJX",
+  "balance": {
+    "lamports": 2000000000,
+    "sol": "2"
+  },
+  "programId": "11111111111111111111111111111111",
+  "lamports": "1000000",
+  "signatureVerifiedLocally": true,
+  "simulatedStatus": "confirmed"
+}
